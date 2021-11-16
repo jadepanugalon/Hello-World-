@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background: burlywood;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: xx-large;
+        }
+
+        .images {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 5px;
+            align-items: center;
+            justify-items: center;
+            border: 3px solid black;
+            margin: 0 auto;
+            width: 80%;
+            background: white;               
+        }
+        
+        .images img {   
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+            width: 50%;
+            height: 70%;
+            margin: 0 auto;
+            border-radius: 100px;
+                            
+        }
+
+        a {
+            background-color: red;
+            color: white;
+            padding: 2px;
+            text-decoration: none;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+
+        }
+
+        a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Photo Gallery</h1>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <a href="/HomePage.html">Home Page</a>
+    <div class="images">       
+        <img src="https://scontent.fceb1-2.fna.fbcdn.net/v/t1.6435-9/198050693_3037139033195299_713091485161418971_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEQa549riA7gvq4ywhTTgkUVn0JJGhwVhFWfQkkaHBWEXG1XZ6EyqMQM6MuItk09QJh7RUAZNiOQsJob-UypRYe&_nc_ohc=lzjQF-XJeR8AX8aP1uA&_nc_ht=scontent.fceb1-2.fna&oh=b93e2c801ca58a64b93e2df3e062ce86&oe=61B9259D">
+        <img src="https://scontent.fceb1-2.fna.fbcdn.net/v/t1.6435-9/141673526_2928724274036776_1003276215688255473_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=174925&_nc_eui2=AeEvWlOx9ZkyH6M4MjFumHQPDRSPK75l8x8NFI8rvmXzH2tTxkCFfq9JsG_paBYK6wJhHE9RSTec5FyL5n5xzQU3&_nc_ohc=P4C6nGAU7UcAX9d1tXO&tn=Jjy_KpHLg90VgBEy&_nc_ht=scontent.fceb1-2.fna&oh=f5e7ee69da46ba93c4f26645dd5fa10c&oe=61B9A39F>
+        <img src="https://scontent.fceb1-3.fna.fbcdn.net/v/t1.6435-9/130245199_2892460667663137_1347095767304528814_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=174925&_nc_eui2=AeEM1b-GIv_Lh6NhpJUJVB4oyoFW4eJ28gXKgVbh4nbyBRMDtnD8ipZTG2DsYknnctmxas5zqJVMMQOGpSUKVLBZ&_nc_ohc=2DptTkj8cc0AX-FJrSz&_nc_ht=scontent.fceb1-3.fna&oh=4db50e778d1e8970bc794aa718422013&oe=61BA38AF>
+        <img src="https://scontent.fceb1-1.fna.fbcdn.net/v/t1.6435-9/67190050_2456700794572462_7608664101077647360_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=174925&_nc_eui2=AeH93-lTgVF7W5NDHOPxDio-CwkPtLj-jT4LCQ-0uP6NPhEGRHCp8swLcmWzwbLn9QuYAVQ-4EFxb40q29FJGiok&_nc_ohc=lqv3DHA19NYAX-Ta-q9&_nc_ht=scontent.fceb1-1.fna&oh=fc137bfce3c9019132df0b71d88962b3&oe=61B98D8B>
+        <img src="https://scontent.fceb1-2.fna.fbcdn.net/v/t1.6435-9/57277907_2376296455946230_8876269392925556736_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=174925&_nc_eui2=AeGYQ7fhaA0YypNPJ7dw_FyJEV6JqdtMmHoRXomp20yYem3skYnr6d8Ml2-LeYBRny29GmSGq3e8ylg9XYAZFPtR&_nc_ohc=pxJqRuR39-AAX-uoEzA&tn=Jjy_KpHLg90VgBEy&_nc_ht=scontent.fceb1-2.fna&oh=b4eb9d7c819b2bd849ae16692cdfc4d3&oe=61B7CFA1>
+        <img src="https://scontent.fceb1-1.fna.fbcdn.net/v/t1.6435-9/51484537_2327644924144717_1548066505952854016_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=174925&_nc_eui2=AeG9EqyKEZ3gDprHr35EYGCmm6-CGXRlfyqbr4IZdGV_Kj1Th_KsGH3YCrOwKG2iGw-KEVnT0uaUQHuOWbZV0pIu&_nc_ohc=JpGipw2Gd6QAX-f7uBU&tn=Jjy_KpHLg90VgBEy&_nc_ht=scontent.fceb1-1.fna&oh=9c434fb2ab02eb395214efd253eaab98&oe=61B8268C>
+        <img src="https://scontent.fceb1-3.fna.fbcdn.net/v/t1.15752-9/256811964_706531496991315_3986222808034436312_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=ae9488&_nc_eui2=AeFML3xqIRW-Jq7t5igc8hJ-opVwkEhqIAyilXCQSGogDJ3BodN2RVbgpmG6lXTcKP1bE-Uj2uw6n_oP6ef7OeIm&_nc_ohc=k5eL0RR41NwAX_obsl7&_nc_ht=scontent.fceb1-3.fna&oh=67f2c0293bda65c8bf336010244c3277&oe=61B8797D>
+        <img src="https://scontent.fceb1-3.fna.fbcdn.net/v/t1.15752-9/255539537_599317481487334_4420455699353168279_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=ae9488&_nc_eui2=AeGgvpGuiOILi-5C7xddaVadhrUqVArmeiKGtSpUCuZ6IpQXTsiqG2WppjQWfA13CE3YEaxMbJQhYWgxqeH3Iu21&_nc_ohc=DFSGIt9fiqsAX_TkB3A&_nc_ht=scontent.fceb1-3.fna&oh=17e418370c94a10835433a30e4692b68&oe=61BA6F97>
+        <img src="https://scontent.fceb1-2.fna.fbcdn.net/v/t1.15752-9/255493004_862043494460910_916489714907058776_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=ae9488&_nc_eui2=AeGLQu4cTsOa-9KG2hN-B5cznNqkulN0K36c2qS6U3Qrfi3pmAH3mnKeQfexvhIzePTz2_jhhoHEEe8G7194jhHo&_nc_ohc=GONuHC59jPwAX9bt7Au&_nc_ht=scontent.fceb1-2.fna&oh=054a166f102ca560c8af9b10558c0a60&oe=61B835C7>
+        <img src=https://scontent.fceb1-2.fna.fbcdn.net/v/t1.15752-9/247954223_599038818099044_3776056942445912943_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=ae9488&_nc_eui2=AeEFPOvU9ZzVDiDpGSAntIADGmc41wZCVFQaZzjXBkJUVFVETCjaQS_68XTRHt7wer5t9qEQsbEwNIvpNQlgSG3h&_nc_ohc=O3Ssth3mDP8AX8ti7z6&_nc_ht=scontent.fceb1-2.fna&oh=9c25146201fb276d4ea0426e08b39029&oe=61BA7165>
+
+</body>
+</html>
