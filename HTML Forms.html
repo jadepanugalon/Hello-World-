@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FORM</title>
+
+	<style>
+
+		body {
+			background-color: pink;
+			font-family: Arial, Helvetica, sans-serif;
+			text-align: center;
+		}
+
+		form {
+			background-color: white;
+			max-width: 450px;
+			margin: 50px auto;
+			padding: 25px 15px;
+			
+		}
+
+		
+		.formDesign {
+			text-align: left;
+			margin-bottom: 25px;
+		}
+
+		
+		.formDesign label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		
+		.formDesign input[type="radio"],
+		.formDesign input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+
+		.formDesign input,
+		.formDesign select,
+		.formDesign textarea {
+			padding: 10px;
+			display: block;
+			width: 80%;
+		}
+
+		button {
+			background-color: greenyellow;
+			border-radius: 2px;
+			font-size: 20px;
+			display: block;
+			width: 50%;
+			margin-top: 30px;
+			margin-bottom: 10px;
+		}
+
+    	button:hover {
+      		color: blue;
+    	}
+
+	</style>
+</head>
+
+<body>
+	<h1>REGISTRATION FORM</h1>
+
+	
+	<form id="form">
+		
+		<div class="formDesign">
+			<label for="name" id="fname">First name:</label>
+			<input type="text" id="fname"/>
+
+      <label for="name" id="mname">Middle name:</label>
+			<input type="text" id="mname"/>
+
+      <label for="name" id="famname">Family name:</label>
+			<input type="text" id="famname"/>
+
+      <div class="formDesign">
+        <p>Gender:</p>
+        <label for="male">
+        <input type="radio" id="male" name="male">Male</input>
+        </label>
+
+        <label for="female">
+        <input type="radio" id="female" name="female">Female</input>
+        </label>
+      </div>
+
+		</div>
+
+		<div class="formDesign">
+			<label for="email" id="email">Email</label>
+			<input type="email" id="email"/>
+		</div>
+
+
+		<div class="formDesign">
+			<label for="address" id="address">Home address:</label>
+			<input type="text" id="address"/>
+		</div>
+
+    <div class="formDesign">
+			<p>Hobbies:</p>
+			<label for="compgames">
+			<input type="checkbox" name="compgames">Computer Games</input></label>
+			
+        	<label for="music">
+			<input type="checkbox" name="music">Playing music instruments</input></label>
+			
+        	<label for="cooking">
+			<input type="checkbox" name="cooking">Cooking</input></label>
+			
+      		<label for="drawing">
+			<input type="checkbox" name="drawing">Drawing</input></label>
+		</div>
+
+		<div class="formDesign">
+			<p>Favorite color:</p>
+			<select name="colors" id="colors">
+				<option value="black">Black</option>
+				<option value="yellow">Yellow</option>
+				<option value="red">Red</option>
+				<option value="green">Green</option>
+			</select>
+		</div>
+
+
+		<div class="formDesign">
+			<p>Say something about youself</p>
+			<textarea name="saysomething" id="saysomething"></textarea>
+		</div>
+
+		<button type="submit" value="submit">Submit</button>
+    	<button type="reset" value="clear">Clear</button>
+
+	</form>
+</body>
+
+</html> 
